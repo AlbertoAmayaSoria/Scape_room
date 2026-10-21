@@ -1,0 +1,16 @@
+PROBLEMA 2 - LA SECUENCIA GLOTONA
+============================================================
+
+K = (respuesta del problema 1)
+
+Se define una secuencia asi:
+
+    T(0) = 0
+    T(1) = 1
+    T(2) = 2
+    T(n) = T(n-1) + T(n-2) + T(n-3)     para n >= 3
+
+Cralcula T(K + 30) y entrega solo el residuo al dividir entre 1000
+(es decir, T(K + 30) mod 1000).
+
+Respuerta: ______

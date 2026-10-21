@@ -1,0 +1,19 @@
+PROBLEMA 8 - LAS PAREJAS
+============================================================
+
+K = (respuesta del problema 7)
+
+Se genera un arreglo "a" de 2 000 000 numeros con este codigo:
+
+    x = K
+    a = []
+    for _ in range(2000000):
+        x = (x * 1103515245 + 12345) % 2**31
+        a.append(x % 10000000)
+
+Cuantos pares de posiciones (i, j), con i < j, cumplen
+a[i] + a[j] = 10000000 ?
+
+Entrega la respuesta mod 10000.
+
+Respuesta: ______

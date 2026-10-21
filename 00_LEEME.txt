@@ -1,0 +1,18 @@
+ESCAPE ROOM DE PROGRAMACION
+===========================
+
+Este archivo .zip contiene 10 problemas, cada uno en su propio archivo.
+
+- El problema 01 esta abierto: empiecen por ahi.
+- Cada uno de los demas archivos esta protegido con contraseña.
+- La CONTRASEÑA del problema N es la RESPUESTA del problema N-1,
+  escrita con 4 digitos (completen con ceros a la izquierda).
+  Ejemplo: si la respuesta fuera 63, la contrasena es 0063.
+- La respuesta del problema 10 es el codigo de la puerta de salida.
+  Si es correcta, tambien abre el archivo 11_salida.txt.
+
+Reglas: sin Internet ni asistentes de IA. Se vale usar compilador.
+Prohibido intentar romper las contraseñas por fuerza bruta: el reto es
+resolver los problemas.
+
+Suerte.

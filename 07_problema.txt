@@ -1,0 +1,16 @@
+PROBLEMA 7 - EL MECANISMO INVERSO
+============================================================
+
+K = (respuesta del problema 6)
+
+Un numero secreto n pasa exactamente K veces por esta operacion:
+
+    n = (7*n + 3) mod 1000000007
+
+Despues de las K repeticiones, el resultado es  734073793.
+
+Cual era el numero secreto n original? Entrega la respuesta mod 10000.
+
+Dato util: 7 x 142857144 deja residuo 1 al dividirse entre 1000000007.
+
+Respuesta: ______

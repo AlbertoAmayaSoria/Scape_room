@@ -1,0 +1,17 @@
+PROBLEMA 3 - LAS PUERTAS
+============================================================
+
+K = (respuesta del problema 2)
+
+Hay N = K x 10^9 puertas, numeradas del 1 a N, todas cerradas.
+
+  - La persona 1 cambia el estado (abre si esta cerrada, cierra si esta
+    abierta) de TODAS las puertas.
+  - La persona 2 cambia el estado de las puertas 2, 4, 6, 8, ...
+  - La persona 3 cambia el estado de las puertas 3, 6, 9, 12, ...
+  - Y asi sucesivamente: la persona i cambia el estado de las puertas
+    multiplos de i, hasta la persona N.
+
+Cuantas puertas quedan abiertas al final? Entrega la respuesta mod 10000.
+
+Respuesta: _____

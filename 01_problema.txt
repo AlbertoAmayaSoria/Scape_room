@@ -1,0 +1,11 @@
+PROBLEMA 1 - ARRANQUE
+============================================================
+
+(No necesita clave. Su respuesta abre el sobre 2.)
+
+Cuántos numeros del 1 al 1000 (ambos incluidos) tienen dígitos que suman
+exactamente 10?
+
+Ejemplos: 19 si cuenta (1 + 9 = 10). 20 no cuenta (2 + 0 = 2).
+
+Respuesta: ______

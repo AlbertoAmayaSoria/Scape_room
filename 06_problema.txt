@@ -1,0 +1,19 @@
+PROBLEMA 6 - LA TRAMPA
+============================================================
+
+K = (respuesta del problema 5)
+
+Este programa pretende calcular la parte entera de la raiz cuadrada de N
+(el mayor entero cuyo cuadrado no pasa de N), pero NO imprime el resultado
+correcto:
+
+    import math
+    K = ____
+    M = 10**15 + K
+    N = M*M - 1
+    print(int(math.sqrt(N)) % 10000)
+
+Encuentra el valor REAL de la parte entera de la raiz de N, y entrega su
+residuo mod 10000.
+
+Respuesta: ______

@@ -1,0 +1,19 @@
+PROBLEMA 4 - EL CIRCULO
+============================================================
+
+K = (respuesta del problema 3)
+
+N = K x 10^12 + 1 personas estan numeradas del 1 a N y forman un circulo.
+Empezando por la persona 1:
+
+  - la 1 se salva,
+  - la 2 sale,
+  - la 3 se salva,
+  - la 4 sale,
+  - ... y asi dando vueltas, saltando a las que ya salieron,
+
+hasta que queda una sola persona.
+
+Que numero tiene la persona sobreviviente? Entrega la respuesta mod 1000.
+
+Respuesta: ______

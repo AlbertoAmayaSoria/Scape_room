@@ -1,0 +1,31 @@
+PROBLEMA 10 - LA PUERTA FINAL
+============================================================
+
+K = (respuesta del problema 9)
+
+Hay una cuadrícula de 40 x 40 casillas (filas 0..39, columnas 0..39). Se
+parte de la esquina superior izquierda (0,0) y se quiere llegar a la esquina
+inferior derecha (39,39). Solo se puede mover una casilla a la derecha o una
+casilla hacia abajo.
+
+Algunas casillas estan bloqueadas. Se generan asi (las casillas (0,0) y
+(39,39) nunca se bloquean):
+
+    x = K
+    bloqueadas = set()
+    for i in range(40):
+        for j in range(40):
+            x = (x * 1103515245 + 12345) % 2**31
+            if (i, j) not in ((0, 0), (39, 39)) and (x >> 16) % 100 < 20:
+                bloqueadas.add((i, j))
+
+Cuantos caminos distintos hay de (0,0) a (39,39) sin pisar casillas
+bloqueadas? Entrega la respuesta mod 10000.
+
+ESE NUMERO ES EL CODIGO DE LA PUERTA DE SALIDA.
+
+Respuesta: ______
+
+
+
+==============================================================================
